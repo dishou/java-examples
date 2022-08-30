@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "User",
+  "type": "object",
+  "properties": {
+    "Address": {
+      "type": "Object",
+      "properties": {
+        "label": {
+          "type": "string"
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    }
+  }
+}
